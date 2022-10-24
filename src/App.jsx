@@ -1,8 +1,9 @@
-import { BrowserRouter, Route, Routem, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Frontend from "./pages/Frontend";
 import Backend from "./pages/Backend";
-import Cabecalho from "./components/layout/Cabecalho/Cabecalho";
+import Cabecalho from "./components/layout/Cabecalho";
+import "./App.css";
 
 const App = () => {
   return (

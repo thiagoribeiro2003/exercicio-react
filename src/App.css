@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html p {
+  font-size: 20px;
+}
+
+html h1 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+html h2 {
+  color: whitesmoke;
+}
+
+html a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(211, 25, 211);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+nav {
+  background-color: lightcyan;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section {
+  margin: 30px;
+}
